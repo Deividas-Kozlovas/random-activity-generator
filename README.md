@@ -27,5 +27,5 @@ Using Visual Studio Code:
 Open the project folder in Visual Studio Code.
 Right-click on index.html and select "Open with Live Server" to run the project locally.
 Click the "Rotate" button to generate a random activity. The activity will appear in the text box, ready to be used.
-##Customize Activities
+## Customize Activities
 Open the dataList.js file to modify or add new activities to the activityList array. This allows you to tailor the tool to include the activities you want to try.
