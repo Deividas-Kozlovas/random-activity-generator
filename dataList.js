@@ -1,18 +1,3 @@
 export const activityList = [
-    'Pasivazineti paspirtuku',
-    'Pasivazineti dviraciu',
-    'Paskraidyti dronu',
-    'Paplaukioti kajaku',
-    'Nudazyti figurele',
-    'Issimaudyti',
-    'Pabegioti',
-    'Pazaisti zaidimus',
-    'Iskepti nauja recepta',
-    'Pasicaikscioti',
-    'Arduino',
-    'Diena su Domu',
-    'Paziureti kursa',
-    'Nuvaziuoti kur nebuves',
-    'Paziureti filma',
-    'Pasivazineti kartingu',
+    
 ]
