@@ -42,9 +42,10 @@ import {
       const randomIndexForRelaxation = Math.floor(
         Math.random() * relaxationActivities.length
       );
-
       textElement.innerHTML = activities[randomIndexForActivity];
+      textElement.style.display = "block";
       relaxationText.innerHTML = relaxationActivities[randomIndexForRelaxation];
+      relaxationText.style.display = "block";
 
       setTimeout(() => {
         rotateActivities(loopCount - 1, activities, textElement);
