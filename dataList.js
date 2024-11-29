@@ -87,3 +87,22 @@ export const relaxationActivities = [
   "Išbandyti švelnius kvėpavimo pratimus su fokusavimu į kiekvieną kvėpavimą",
   "Klausyti raminančios muzikos ir daryti šviesos masažą sau",
 ];
+
+export const booksToRead = [
+  "ORM Simpfony",
+  "MongoDB",
+  "Simpfony",
+  "Linux",
+  "SQL",
+  "React",
+  "PHP",
+  "Node.js",
+  "Express.js",
+  "JavaScript",
+  "TypeScritp",
+  "ORM MongoDB",
+  "API Design",
+  "Testing PHP",
+  "Testing React",
+  "Security",
+];

@@ -3,13 +3,16 @@ import {
   activityListSummer,
   activityListWinter,
   relaxationActivities,
+  booksToRead,
 } from "./dataList.js";
 
 (() => {
   const winterButton = document.querySelector("#winterButton");
   const summerButton = document.querySelector("#summerButton");
+  const bookButton = document.querySelector("#bookButton");
   const activityText = document.querySelector(".box__activity");
   const relaxationText = document.querySelector(".box__relaxation");
+  const bookTeaxt = document.querySelector(".box__book");
 
   const combinedWinterActivities = [
     ...activityListWinter,
@@ -33,6 +36,24 @@ import {
     );
     rotateActivities(loopCount, combinedSummerActivities, activityText);
   });
+
+  bookButton.addEventListener("click", () => {
+    const loopCount = Math.floor(Math.random() * booksToRead.length);
+    rotateBooks(loopCount);
+  });
+
+  function rotateBooks(loopCount) {
+    if (loopCount > 0) {
+      const randomIndexOfbook = Math.floor(Math.random() * booksToRead.length);
+
+      bookTeaxt.innerHTML = booksToRead[randomIndexOfbook];
+      bookTeaxt.style.display = "block";
+
+      setTimeout(() => {
+        rotateBooks(loopCount - 1);
+      });
+    }
+  }
 
   function rotateActivities(loopCount, activities, textElement) {
     if (loopCount > 0) {
